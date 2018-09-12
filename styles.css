@@ -11,7 +11,7 @@
 .sophisticated h1 {
     font-size: 20px;
     font-family: 'Tenor Sans', sans-serif;
-    letter-spacing: 1em;
+    /* letter-spacing: 1em; */
     color:#DC476B;
 }
 
@@ -52,6 +52,51 @@
 }
 
 /* ENERGETIC */
+
+.energetic h1 {
+    font-size: 120px;
+    font-family: 'Bangers', sans-serif;
+    letter-spacing: 0.2em;
+    text-transform: capitalize;
+}
+
+.energetic h2 {
+
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+
+}
+
+.energetic p {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.energetic {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 700px;
+    margin-top: 100px;
+}
+
+.energetic a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 12px;
+    letter-spacing: 0.8;
+    display: inline-block;
+    padding: 10px 25px;
+    background: rgb(209, 55, 17);
+    color: #FFFF;
+}
+
+@media (max-width: 700px) {
+    .wrapper {
+        margin-top: 40px;
+    }
+}
 /* RELAXED */
 /* CORPORATE */
 /* FUN */
