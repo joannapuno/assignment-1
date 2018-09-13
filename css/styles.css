@@ -55,5 +55,27 @@
 
 
 /* RELAXED */
+.relaxed h1 {
+    font-size: 120px;
+    font-family: 'Bangers', sans-serif;
+    letter-spacing: 0.2em;
+    text-transform: capitalize;
+    color: rgba(255, 8, 0, 0.842)
+}
+
+.relaxed h2 {
+
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+
+}
+
+.relaxed p {
+    font-size: 16px;
+    font-family: 'Dawning of a New Day', cursive;
+    
+}
+
 /* CORPORATE */
 /* FUN */
