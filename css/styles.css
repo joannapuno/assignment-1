@@ -72,10 +72,35 @@
 }
 
 .relaxed p {
-    font-size: 16px;
+    font-size: 60px;
     font-family: 'Dawning of a New Day', cursive;
     
 }
 
 /* CORPORATE */
+
+.corporate h1 {
+    font-size: 80px;
+    font-family: 'Roboto Slab', serif;
+    
+}
+
 /* FUN */
+
+.fun h1 {
+    font-size: 80px;
+    font-family: 'Luckiest Guy', sans-serif;
+    color: #DC476B;
+}
+.fun h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #DC476B;
+}
+
+.fun p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+
+}
+
