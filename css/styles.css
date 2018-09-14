@@ -90,7 +90,7 @@
 .fun h1 {
     font-size: 80px;
     font-family: 'Luckiest Guy', sans-serif;
-    color: #FF1300;
+    color: rgb(255, 136, 0);
 }
 .fun h2 {
     font-family: 'Roboto', sans-serif;
@@ -104,7 +104,13 @@
 
 }
 
-.wrapper-fun {
-    align-content: center;
-}
 
+.fun a {
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    display: inline-block;
+    padding: 10px 25px;
+    background: rgb(241, 159, 148);
+    color: #FFF;
+   
+}
