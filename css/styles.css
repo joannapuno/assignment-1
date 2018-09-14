@@ -1,26 +1,33 @@
 
 /* SOPHISTICATED */
 
-
+.sophisticated {
+    width: 80%;
+    
+}
 .sophisticated p {
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
     line-height: 1.5em;
     font-weight: 300;
+    margin-bottom: 20px;
 }
 
 .sophisticated h1 {
-    font-size: 80px;
+    font-size: 130px;
     font-family: 'Tenor Sans', sans-serif;
     color:#524AFF;
+    margin-bottom: 10px;
+    letter-spacing: 0.055em;
     
 }
 
 .sophisticated h2 {
-    font-size: 20px;
+    font-size: 15px;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-    color: #CC8F27;
+    color: rgb(91, 87, 88);
+    
     
 }
 
@@ -30,10 +37,22 @@
 }
 
 .sophisticated hr {
-    border: none;
+    border: 0;
     height: 1px;
-    color: #FFE08A;
     background-color: #524AFF;
+    color: #524AFF;
+    width: 13%;
+    margin-left: 0;
+    
+}
+
+.sophisticated-buttons a {
+    display: inline-block;
+    padding: 10px 25px;
+    background: rgb(255, 255, 255);
+    border: #FF1300;
+    color: rgb(77, 77, 77);
+    box-shadow: 0px 10px 10px -10px rgb(193, 190, 255); 
 }
 
 .sophisticated-buttons a:link {
@@ -44,12 +63,13 @@
     color: #FFF;
     letter-spacing: 0.1em;
     text-decoration: none;
+    margin-top: 20px;
     
 }
 
 .sophisticated-buttons a:hover {
-    color:rgb(255, 204, 0);
-    background-color: #8827CC;
+    color:#FFF;
+    background-color: #524AFF;
     
 }
 
