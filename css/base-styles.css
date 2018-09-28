@@ -1,0 +1,14 @@
+.wrapper {
+    margin: 0 auto;
+    width: 80%;
+    /* max-width: 700px; */
+    margin-top: 50px;
+}
+
+
+
+@media (max-width: 700px) {
+    .wrapper {
+        margin-top: 40px;
+    }
+}

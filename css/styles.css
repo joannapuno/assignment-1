@@ -1,0 +1,380 @@
+
+/* SOPHISTICATED */
+
+.sophisticated {
+    width: 80%;
+    height: 800px;
+    background: linear-gradient(
+                180deg,rgba(0, 0, 0, 0),  
+                transparent, rgba(255, 255, 255, 0.852) 0%),        
+                url('../img/sophisticated-background.jpg');
+    background-size: cover;          
+}
+
+.sophisticated-wrapper {
+    padding: 50px;  
+}
+
+.sophisticated p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    line-height: 1.5em;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.sophisticated h1 {
+    font-size: 130px;
+    font-family: 'Tenor Sans', sans-serif;
+    color:#524AFF;
+    margin-bottom: 10px;   
+}
+
+.sophisticated h2 {
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: rgb(91, 87, 88);     
+}
+
+.sophisticated h6 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.sophisticated hr {
+    border: 0;
+    height: 1px;
+    background-color: #524AFF;
+    color: #524AFF;
+    width: 16.5%;
+    margin-left: 0;   
+}
+
+.sophisticated-buttons a {
+    display: inline-block;
+    padding: 10px 25px;
+    background: rgb(255, 255, 255);
+    border: #FF1300;
+    color: rgb(77, 77, 77);
+    box-shadow: 0px 10px 10px -10px rgb(148, 143, 255); 
+}
+
+.sophisticated-buttons a:link {
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 12px;
+    color: rgb(46, 46, 46);
+    letter-spacing: 0.1em;
+    text-decoration: none;
+    margin-top: 20px;  
+}
+
+.sophisticated-buttons a:hover {
+    color:#FFF;
+    background-color: #524AFF;  
+}
+
+/* ENERGETIC */
+
+.energetic {
+    width: 80%;
+    padding: 30px;  
+    background-image: url(../img/energetic-background.png);
+    background-repeat: repeat;
+    background-size: 80%;
+    background-position: 20px 70px;   
+}
+
+.energetic-wrapper {
+    background: #1443CC;
+    padding: 50px;  
+    border-radius: 90px 0px 90px 0px;    
+}
+
+.energetic p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    line-height: 1.5em;
+    font-weight: 300;
+    margin-bottom: 20px;
+    color: #FFF;
+}
+
+.energetic h1 {
+    font-size: 130px;
+    font-family: 'Bangers', sans-serif;
+    color:#FFF;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    letter-spacing: 0.2em;  
+}
+
+.energetic h2 {
+    font-size: 50px;
+    font-family: 'Bangers', sans-serif;
+    color: #FDC419;
+    letter-spacing: 0.3em;
+}
+
+.energetic hr {
+    border: 0;
+    height: 10px;
+    background: #FFF;
+    margin-left: 0;    
+}
+
+.energetic-buttons {
+    text-align: center;
+    letter-spacing: 1em;
+}
+
+.energetic-buttons a {
+    display: inline-block;
+    padding: 10px 25px;
+    background: #FDC419;
+    box-shadow: 0px 10px 10px -10px rgb(6, 6, 6); 
+    border-radius: 90px 0px 90px 0px;
+    color: #1443CC;
+}
+
+.energetic-buttons a:link {
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+    margin-top: 20px;   
+}
+
+.energetic-buttons a:hover {
+    color:rgb(255, 77, 0);
+    background-color: #FFF;   
+}
+
+/* RELAXED */
+
+.relaxed {
+    background-image: url(../img/relaxed-background.jpg);
+    background-size: cover;
+    background-position: 80% 60%;    
+}
+
+.relaxed-wrapper {
+    background: #ffffffb5;
+    padding: 80px; 
+    border-radius: 50%; 
+    margin-bottom: 20px;
+}
+
+.relaxed h1 {
+    font-size: 120px;
+    font-family: 'Dawning of a New Day', cursive;
+    letter-spacing: 0.5em;
+    color: #007F77;
+    text-align: center;
+    margin: 2px 0px 5px 0px;   
+}
+
+.relaxed h2 {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    letter-spacing: .5em;
+    margin-bottom: 30px;
+}
+
+.relaxed hr {
+    width: 20%;
+    text-align: center;
+}
+
+.relaxed p {
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    text-align: center;
+    padding: 20px;
+    line-height: 2em;   
+}
+
+.relaxed-buttons {
+    text-align: center;
+    letter-spacing: 0.5em;
+}
+
+.relaxed-buttons a {
+    margin: 0% auto;
+    display: inline-block;
+    padding: 10px 25px;
+    background: #fff0;
+    color: #007F77;    
+}
+
+.relaxed-buttons a:link {
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+    margin-top: 20px;   
+}
+
+.relaxed-buttons a:hover {
+    color:#007F77;
+    font-weight: 400;
+    font-size: 13px;   
+}
+
+/* CORPORATE */
+
+.corporate-wrapper {
+    padding: 20px;
+    margin: 20px;    
+}
+
+.corporate h1 {
+    font-size: 80px;
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 3px;
+    color: #2E457F;   
+}
+
+.corporate hr {
+    border: 0;
+    height: 10px;
+    background: #000000;
+    margin-left: 0;
+    margin-top: 3px;
+    width: 11.3%;
+}
+
+.corporate h2 {
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 20px;
+}
+
+.corporate p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 2em;
+}
+
+.corporate-buttons {
+    text-align: center;
+    letter-spacing: 2em;
+}
+
+.corporate-buttons a {
+    margin: 0% auto;
+    display: inline-block;
+    padding: 10px 25px;
+    background: #fff0;
+    box-shadow: 0px -4px 0px 0px #2E457F;
+    color: #2E457F;   
+}
+
+.corporate-buttons a:link {
+    text-transform: uppercase;
+    font-family: 'Roboto Slab', sans-serif;
+    font-weight: 100;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+    margin-top: 20px;   
+}
+
+.corporate-buttons a:hover {
+    color:#000000;
+    background-color: rgba(181, 185, 196, 0.4);
+    box-shadow: none;
+    font-weight: 700;
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 13px;   
+}
+
+/* FUN */
+
+.fun-wrapper {
+    padding: 30px;
+    background: #FFC900;
+    border-radius: 20px;
+    margin: 10px 80px;
+    border: dotted 10px #FFF;   
+}
+
+.fun h1 {
+    font-size: 200px;
+    font-family: 'Luckiest Guy', sans-serif;
+    color: #FF3F00;
+    margin-bottom: 5px;
+    margin-top: 80px;
+    letter-spacing: 0.1em;
+    text-align: center;  
+}
+
+.fun hr {
+    height: 10px;
+    background: #FFF;
+    border: none;
+    width: 11.3%;
+    text-align: center;
+}
+
+.fun h2 {
+    font-family: 'Luckiest Guy', sans-serif;
+    font-size: 30px;
+    color: #FFF;
+    text-align: center;
+    margin-top: 5px;
+    letter-spacing: 0.3em;
+}
+
+.fun p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.5em;
+    color: #E8220C;
+    text-align: center;
+}
+
+
+.fun-buttons {
+    text-align: center;  
+}
+
+.fun-buttons a {
+    display: inline-block;
+    padding: 10px 25px;
+    background: #FF3F00;
+    box-shadow: 0px 10px 10px -10px rgb(181, 181, 181); 
+    border-radius: 5px;
+    color: #FFF;
+}
+
+.fun-buttons a:link {
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+    margin-top: 20px;
+    
+}
+
+.fun-buttons a:hover {
+    font-family: 'Roboto', sans-serif;
+    color:#000000;
+    font-size: 15px;
+    font-weight: 400;
+    background-color: #FFF;
+    box-shadow: 0px 4px 0px 0px  #FF3F00; 
+    border-radius: 5px;   
+}
